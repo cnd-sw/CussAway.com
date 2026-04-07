@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const AGE_KEY = 'lingua_guard_age_verified';
+const AGE_KEY = 'cussaway_age_verified';
 
 export default function AgeGate({ onConfirm }) {
   const [denied, setDenied] = useState(false);

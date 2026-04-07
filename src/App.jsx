@@ -6,14 +6,14 @@ import WordList from './components/WordList';
 import SearchBar from './components/SearchBar';
 
 export default function App() {
-  const [ageVerified, setAgeVerified]   = useState(false);
-  const [languages, setLanguages]       = useState([]);
+  const [ageVerified, setAgeVerified] = useState(false);
+  const [languages, setLanguages] = useState([]);
   const [selectedLang, setSelectedLang] = useState(null);
-  const [langData, setLangData]         = useState(null);
-  const [loading, setLoading]           = useState(false);
-  const [searchQuery, setSearchQuery]   = useState('');
-  const [wordCounts, setWordCounts]     = useState({});
-  const [filter, setFilter]             = useState('all');
+  const [langData, setLangData] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [wordCounts, setWordCounts] = useState({});
+  const [filter, setFilter] = useState('all');
   const [searchResults, setSearchResults] = useState(null);
   const fuseRef = useRef(null);
 
@@ -106,7 +106,7 @@ export default function App() {
           <header className="header">
             <div className="header-logo">
               <div className="header-logo-icon">🌐</div>
-              <span className="header-logo-text">LinguaGuard</span>
+              <span className="header-logo-text">CussAway</span>
             </div>
             <span className="header-badge">18+ Educational</span>
           </header>
