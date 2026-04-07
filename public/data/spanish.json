@@ -1,0 +1,79 @@
+{
+  "language": "Spanish",
+  "code": "es",
+  "flag": "🇪🇸",
+  "region": "Southern Europe / Latin America",
+  "script": "Latin",
+  "entries": [
+    {
+      "id": 1,
+      "word": "Idiota",
+      "transliteration": "Ee-dee-oh-ta",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot",
+      "context": "Common mild insult used when someone makes a silly mistake. Used across Spain and Latin America.",
+      "suggested_response": "Say 'Lo siento' (I'm sorry) and move on."
+    },
+    {
+      "id": 2,
+      "word": "Imbécil",
+      "transliteration": "Im-beh-seel",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Imbecile / Moron",
+      "context": "Insulting someone's intelligence. Very common in arguments or road rage.",
+      "suggested_response": "Ignore or briefly apologize."
+    },
+    {
+      "id": 3,
+      "word": "Cabrón",
+      "transliteration": "Ka-bron",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Bastard / A**hole (strong)",
+      "context": "Very aggressive insult. In some regions can mean 'cuckold'. Signals extreme anger.",
+      "suggested_response": "Do not respond. Leave calmly — this is a high-tension situation."
+    },
+    {
+      "id": 4,
+      "word": "Pendejo",
+      "transliteration": "Pen-deh-ho",
+      "severity": "moderate",
+      "category": "profanity",
+      "meaning": "Idiot / Coward (depending on region)",
+      "context": "Common in Mexico and Latin America. Varies in severity by country — always rude.",
+      "suggested_response": "Ignore entirely. Walk away."
+    },
+    {
+      "id": 5,
+      "word": "Cerdo",
+      "transliteration": "Sair-doh",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Pig — implying filthiness or greed",
+      "context": "Used to call someone dirty, greedy, or morally corrupt.",
+      "suggested_response": "Respond calmly with 'No entiendo' (I don't understand)."
+    },
+    {
+      "id": 6,
+      "word": "Ladrón",
+      "transliteration": "La-dron",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusing someone of stealing. Can draw crowd attention in public places.",
+      "suggested_response": "Show your belongings calmly. Say 'No soy un ladrón' (I am not a thief)."
+    },
+    {
+      "id": 7,
+      "word": "Maldito",
+      "transliteration": "Mal-dee-toh",
+      "severity": "moderate",
+      "category": "profanity",
+      "meaning": "Damned / Cursed / Wretched",
+      "context": "Used as a curse word in anger. Often paired with other insults.",
+      "suggested_response": "Stay composed. De-escalate by speaking softly."
+    }
+  ]
+}

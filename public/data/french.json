@@ -1,0 +1,79 @@
+{
+  "language": "French",
+  "code": "fr",
+  "flag": "🇫🇷",
+  "region": "Western Europe",
+  "script": "Latin",
+  "entries": [
+    {
+      "id": 1,
+      "word": "Idiot",
+      "transliteration": "Ee-dee-oh",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot / Moron",
+      "context": "Common mild insult used when someone makes a dumb mistake. Heard frequently in Parisian traffic.",
+      "suggested_response": "Shrug or say 'Désolé' (Sorry) to de-escalate."
+    },
+    {
+      "id": 2,
+      "word": "Connard",
+      "transliteration": "Koh-nar",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "A**hole / Jerk (strong)",
+      "context": "Very strong insult hurled in road rage or confrontations. Equivalent to a severe English swear.",
+      "suggested_response": "Do not engage. Walk away. This person is highly agitated."
+    },
+    {
+      "id": 3,
+      "word": "Imbécile",
+      "transliteration": "Im-beh-seel",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Imbecile / Fool",
+      "context": "Used when criticizing someone's poor judgment. Commonly heard in arguments.",
+      "suggested_response": "Stay calm. A simple 'Je suis désolé' (I'm sorry) often diffuses the situation."
+    },
+    {
+      "id": 4,
+      "word": "Crétin",
+      "transliteration": "Kreh-tan",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Cretin / Blockhead",
+      "context": "An insult targeting someone's intelligence. Used in frustration or mockery.",
+      "suggested_response": "Ignore and move on. Responding invites further confrontation."
+    },
+    {
+      "id": 5,
+      "word": "Va te faire foutre",
+      "transliteration": "Va tuh fair foo-truh",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Go f*** yourself",
+      "context": "Extreme profanity used to dismiss someone aggressively. Signals high anger.",
+      "suggested_response": "Leave the area immediately if safe. This person is extremely agitated."
+    },
+    {
+      "id": 6,
+      "word": "Nul",
+      "transliteration": "Nool",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Useless / Hopeless / Zero",
+      "context": "Mocking someone's ability or competence. Common in sports, driving disputes.",
+      "suggested_response": "Ignore or give a polite smile."
+    },
+    {
+      "id": 7,
+      "word": "Abruti",
+      "transliteration": "Ah-broo-tee",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Dimwit / Brute",
+      "context": "Used when someone acts thoughtlessly or rudely. More forceful than 'nul'.",
+      "suggested_response": "Calmly say 'Je ne comprends pas' (I don't understand) and walk away."
+    }
+  ]
+}

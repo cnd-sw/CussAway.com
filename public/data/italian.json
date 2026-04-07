@@ -1,0 +1,69 @@
+{
+  "language": "Italian",
+  "code": "it",
+  "flag": "🇮🇹",
+  "region": "Southern Europe",
+  "script": "Latin",
+  "entries": [
+    {
+      "id": 1,
+      "word": "Stupido",
+      "transliteration": "Stoo-pee-doh",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Stupid / Fool",
+      "context": "Very common mild insult in Italian. Used in traffic disputes and everyday arguments.",
+      "suggested_response": "Say 'Mi dispiace' (I'm sorry) and walk away."
+    },
+    {
+      "id": 2,
+      "word": "Cretino",
+      "transliteration": "Kreh-tee-noh",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Cretin / Idiot",
+      "context": "Dismissive insult toward someone's intelligence. Typically mild, often accompanied by hand gestures.",
+      "suggested_response": "Ignore. Non-engagement is the best response."
+    },
+    {
+      "id": 3,
+      "word": "Figlio di puttana",
+      "transliteration": "Feel-yo dee poo-tah-na",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Son of a b**** (strong)",
+      "context": "Very strong insult directed in rage. Signals serious anger.",
+      "suggested_response": "Do not engage. Leave the area calmly and quickly."
+    },
+    {
+      "id": 4,
+      "word": "Coglione",
+      "transliteration": "Kol-yo-neh",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Idiot (vulgar — body part reference)",
+      "context": "Very crude insult used in extreme frustration. Common in southern Italy.",
+      "suggested_response": "Walk away immediately. Do not respond."
+    },
+    {
+      "id": 5,
+      "word": "Vaffanculo",
+      "transliteration": "Vaf-fan-koo-loh",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Go f*** yourself (extreme)",
+      "context": "One of the strongest Italian profanities. Signals maximum hostility.",
+      "suggested_response": "Leave the area immediately. Seek public safety if threatened."
+    },
+    {
+      "id": 6,
+      "word": "Ladro",
+      "transliteration": "La-droh",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusing someone of theft. Can create a public scene in Italian markets or streets.",
+      "suggested_response": "Calmly show belongings. Say 'Non sono un ladro' (I am not a thief)."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "language": "Japanese",
+  "code": "ja",
+  "flag": "🇯🇵",
+  "region": "East Asia",
+  "script": "Kanji / Hiragana / Katakana",
+  "entries": [
+    {
+      "id": 1,
+      "word": "バカ",
+      "transliteration": "Baka",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot / Stupid",
+      "context": "The most common Japanese insult. Used in arguments, anime, and everyday frustration. Severity depends on tone.",
+      "suggested_response": "Say 'Sumimasen' (Excuse me / I'm sorry) and bow slightly."
+    },
+    {
+      "id": 2,
+      "word": "アホ",
+      "transliteration": "Aho",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot (Kansai dialect)",
+      "context": "Common in Osaka and western Japan. In Tokyo, more offensive than in Kansai where it can be affectionate.",
+      "suggested_response": "Ignore or smile and bow."
+    },
+    {
+      "id": 3,
+      "word": "うせろ",
+      "transliteration": "Usero",
+      "severity": "moderate",
+      "category": "dismissal",
+      "meaning": "Get lost / Go away",
+      "context": "Tells someone to disappear. Rude and dismissive — signaling they don't want you around.",
+      "suggested_response": "Calmly move away. Say 'Sumimasen, ikimashou' (Sorry, let me go)."
+    },
+    {
+      "id": 4,
+      "word": "死ね",
+      "transliteration": "Shine",
+      "severity": "severe",
+      "category": "threat",
+      "meaning": "Drop dead / Die",
+      "context": "Extremely offensive. Telling someone to die. Rarely used in person but serious when it is.",
+      "suggested_response": "Leave immediately. Contact authorities if you feel threatened."
+    },
+    {
+      "id": 5,
+      "word": "泥棒",
+      "transliteration": "Dorobou",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusation of theft. Japan is very low-crime — being accused is serious and can attract attention.",
+      "suggested_response": "Stay calm. Show belongings. Get a store employee or police to mediate."
+    },
+    {
+      "id": 6,
+      "word": "くそ",
+      "transliteration": "Kuso",
+      "severity": "moderate",
+      "category": "profanity",
+      "meaning": "S*** / Damn (general exclamation)",
+      "context": "Often an exclamation of frustration, not always directed at a person. Equivalent to 'damn it'.",
+      "suggested_response": "May not be directed at you. Observe context before reacting."
+    }
+  ]
+}

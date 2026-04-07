@@ -1,0 +1,89 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "flag": "🇮🇳",
+  "region": "South Asia",
+  "script": "Devanagari",
+  "entries": [
+    {
+      "id": 1,
+      "word": "बेवकूफ",
+      "transliteration": "Bewakoof",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot / Fool",
+      "context": "Common insult directed at someone who made a mistake or acted stupidly. Often used in road rage or petty arguments.",
+      "suggested_response": "Ignore or calmly say 'Mujhe samajh nahi aaya' (I didn't understand) to de-escalate."
+    },
+    {
+      "id": 2,
+      "word": "कमीना",
+      "transliteration": "Kameena",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Scoundrel / Lowlife",
+      "context": "Directed at someone seen as dishonest or morally corrupt. Common in heated disputes.",
+      "suggested_response": "Stay calm. Do not react aggressively. Walk away if safe to do so."
+    },
+    {
+      "id": 3,
+      "word": "गधा",
+      "transliteration": "Gadha",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Donkey — implying stupidity",
+      "context": "Casual insult implying someone is dumb. Often used among friends jokingly or in anger.",
+      "suggested_response": "Smile and walk away — it's often more embarrassing for the speaker."
+    },
+    {
+      "id": 4,
+      "word": "हरामी",
+      "transliteration": "Haraami",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Bastard / Illegitimate — used as a strong insult",
+      "context": "Serious insult used in road rage, fights, or extreme frustration. Can escalate situations quickly.",
+      "suggested_response": "Do not respond in kind. If in public, step away and alert authorities if threatened."
+    },
+    {
+      "id": 5,
+      "word": "उल्लू",
+      "transliteration": "Ullu",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Owl — implying someone is a fool or gullible",
+      "context": "Lighthearted or serious insult depending on tone. Common across India.",
+      "suggested_response": "Ignore. It rarely warrants a response."
+    },
+    {
+      "id": 6,
+      "word": "पागल",
+      "transliteration": "Paagal",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Crazy / Mad",
+      "context": "Used when someone acts erratically or makes an outrageous claim. Often not deeply offensive.",
+      "suggested_response": "Respond with composure — 'Main theek hoon, shukriya.' (I'm fine, thank you.)"
+    },
+    {
+      "id": 7,
+      "word": "बदमाश",
+      "transliteration": "Badmaash",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Rogue / Troublemaker / Thug",
+      "context": "Accuses someone of being a delinquent or criminal. Used in confrontations.",
+      "suggested_response": "Calmly deny involvement. Do not escalate."
+    },
+    {
+      "id": 8,
+      "word": "चोर",
+      "transliteration": "Chor",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusing someone of stealing. Can attract a mob in markets — stay very calm and explain yourself.",
+      "suggested_response": "Show your receipt or belongings. Stay calm and say 'Main chor nahi hoon.' (I am not a thief.)"
+    }
+  ]
+}

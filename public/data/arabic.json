@@ -1,0 +1,69 @@
+{
+  "language": "Arabic",
+  "code": "ar",
+  "flag": "🇸🇦",
+  "region": "Middle East / North Africa",
+  "script": "Arabic",
+  "entries": [
+    {
+      "id": 1,
+      "word": "أحمق",
+      "transliteration": "Ahmaq",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Fool / Idiot",
+      "context": "Common mild insult used across Arabic-speaking countries when someone acts foolishly.",
+      "suggested_response": "Say 'Asef' (Sorry) and step back calmly."
+    },
+    {
+      "id": 2,
+      "word": "غبي",
+      "transliteration": "Ghabi",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Stupid / Dumb",
+      "context": "Casual insult targeting someone's intelligence. Used in everyday arguments across the Arab world.",
+      "suggested_response": "Ignore or apologize briefly."
+    },
+    {
+      "id": 3,
+      "word": "كلب",
+      "transliteration": "Kalb",
+      "severity": "severe",
+      "category": "insult",
+      "meaning": "Dog — highly offensive in Arab culture",
+      "context": "Calling someone a dog is extremely offensive in Islamic culture. Never use this word. If heard directed at you, the person is extremely hostile.",
+      "suggested_response": "Leave immediately. Do not respond. Seek help in public spaces."
+    },
+    {
+      "id": 4,
+      "word": "حمار",
+      "transliteration": "Himar",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Donkey — implying great stupidity",
+      "context": "Common insult implying someone is dumb and stubborn.",
+      "suggested_response": "Ignore. It's a light insult not worth escalating."
+    },
+    {
+      "id": 5,
+      "word": "يلعن دينك",
+      "transliteration": "Yil'an dinak",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Curse your religion — extreme religious insult",
+      "context": "One of the most severe insults in Muslim-majority regions. Involves cursing religion. Extremely hostile signal.",
+      "suggested_response": "Leave the area immediately. This is a serious threat indicator. Contact authorities."
+    },
+    {
+      "id": 6,
+      "word": "لص",
+      "transliteration": "Lass",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusation of theft. In some countries this can escalate quickly in public markets.",
+      "suggested_response": "Stay calm. Show your belongings. Say 'Ana mish harami' (I am not a thief)."
+    }
+  ]
+}

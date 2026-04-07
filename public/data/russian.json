@@ -1,0 +1,69 @@
+{
+  "language": "Russian",
+  "code": "ru",
+  "flag": "🇷🇺",
+  "region": "Eastern Europe",
+  "script": "Cyrillic",
+  "entries": [
+    {
+      "id": 1,
+      "word": "Идиот",
+      "transliteration": "Idiot",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot",
+      "context": "Very common insult in Russia. Heard in road rage and disputes.",
+      "suggested_response": "Say 'Izvinite' (Excuse me / Sorry) and walk away."
+    },
+    {
+      "id": 2,
+      "word": "Дурак",
+      "transliteration": "Durak",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Fool / Dummy",
+      "context": "Classic Russian insult calling someone a fool. Very common and not considered extremely offensive.",
+      "suggested_response": "Ignore or shrug it off. Not worth responding to."
+    },
+    {
+      "id": 3,
+      "word": "Сволочь",
+      "transliteration": "Svoloch'",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Scoundrel / Bastard",
+      "context": "Used to call someone a rogue or bad person. More serious than basic insults.",
+      "suggested_response": "Stay calm. Do not mirror the aggression."
+    },
+    {
+      "id": 4,
+      "word": "Мразь",
+      "transliteration": "Mraz'",
+      "severity": "severe",
+      "category": "insult",
+      "meaning": "Scum / Filth",
+      "context": "Very offensive — implies the person is human filth. High hostility signal.",
+      "suggested_response": "Leave the situation immediately."
+    },
+    {
+      "id": 5,
+      "word": "Вор",
+      "transliteration": "Vor",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusation of theft. Note: 'Vor v zakone' (thief in law) is also a criminal title in Russia.",
+      "suggested_response": "Show your belongings. Say 'Ya ne vor' (I am not a thief)."
+    },
+    {
+      "id": 6,
+      "word": "Урод",
+      "transliteration": "Urod",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Freak / Ugly person / Monster",
+      "context": "Insult targeting appearance or behavior. Common in confrontations.",
+      "suggested_response": "Do not respond to personal attacks. Exit the situation calmly."
+    }
+  ]
+}

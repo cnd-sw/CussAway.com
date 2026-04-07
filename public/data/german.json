@@ -1,0 +1,69 @@
+{
+  "language": "German",
+  "code": "de",
+  "flag": "🇩🇪",
+  "region": "Central Europe",
+  "script": "Latin",
+  "entries": [
+    {
+      "id": 1,
+      "word": "Idiot",
+      "transliteration": "Ee-dee-oht",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Idiot",
+      "context": "Very common insult in German. Used in road rage or minor disputes.",
+      "suggested_response": "Say 'Entschuldigung' (Sorry/Excuse me) and walk away."
+    },
+    {
+      "id": 2,
+      "word": "Dummkopf",
+      "transliteration": "Doom-kopf",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Blockhead / Dumb-head",
+      "context": "Classic German insult for stupidity. Often heard in frustration.",
+      "suggested_response": "Ignore. It's mild and can be brushed off easily."
+    },
+    {
+      "id": 3,
+      "word": "Arschloch",
+      "transliteration": "Arsh-lokh",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "A**hole",
+      "context": "Very common and severe profanity. Used in road rage and fights.",
+      "suggested_response": "Do not engage. Leave calmly."
+    },
+    {
+      "id": 4,
+      "word": "Scheiße",
+      "transliteration": "Shy-suh",
+      "severity": "moderate",
+      "category": "profanity",
+      "meaning": "S*** — typically an exclamation of frustration",
+      "context": "Often not directed at anyone — more of an expression of anger at a situation.",
+      "suggested_response": "If directed at you, stay calm. It may not be personal."
+    },
+    {
+      "id": 5,
+      "word": "Vollidiot",
+      "transliteration": "Fol-ee-dee-oht",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Complete idiot / Total moron",
+      "context": "Amplified version of idiot. Used when someone is seen as thoroughly incompetent.",
+      "suggested_response": "Walk away or say 'Es tut mir leid' (I am sorry)."
+    },
+    {
+      "id": 6,
+      "word": "Dieb",
+      "transliteration": "Deeb",
+      "severity": "moderate",
+      "category": "accusation",
+      "meaning": "Thief",
+      "context": "Accusation of theft. Stay calm if accused in a market or public space.",
+      "suggested_response": "Show belongings. Say 'Ich bin kein Dieb' (I am not a thief)."
+    }
+  ]
+}
