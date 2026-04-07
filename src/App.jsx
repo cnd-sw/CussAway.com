@@ -4,6 +4,7 @@ import AgeGate from './components/AgeGate';
 import LanguageGrid from './components/LanguageGrid';
 import WordList from './components/WordList';
 import SearchBar from './components/SearchBar';
+import SuggestForm from './components/SuggestForm';
 
 export default function App() {
   const [ageVerified, setAgeVerified] = useState(false);
@@ -15,6 +16,7 @@ export default function App() {
   const [wordCounts, setWordCounts] = useState({});
   const [filter, setFilter] = useState('all');
   const [searchResults, setSearchResults] = useState(null);
+  const [showSuggest, setShowSuggest] = useState(false);
   const fuseRef = useRef(null);
 
   // Load language index
@@ -108,7 +110,10 @@ export default function App() {
               <div className="header-logo-icon">🌐</div>
               <span className="header-logo-text">CussAway</span>
             </div>
-            <span className="header-badge">18+ Educational</span>
+            <div className="header-right">
+              <button className="btn-suggest" onClick={() => setShowSuggest(true)}>+ Suggest Word</button>
+              <span className="header-badge">18+ Educational</span>
+            </div>
           </header>
 
           {/* Hero */}
@@ -133,6 +138,9 @@ export default function App() {
 
           {/* Main content */}
           <main className="main-content">
+            {/* Suggest Modal */}
+            {showSuggest && <SuggestForm onClose={() => setShowSuggest(false)} />}
+            
             {/* Language browser */}
             {!selectedLang && (
               <>
