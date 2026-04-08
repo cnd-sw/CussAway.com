@@ -26,12 +26,12 @@ if (import.meta.env.PROD) {
  * Strip characters that could form HTML/JS injection payloads.
  * Used for all search inputs before passing to Fuse.js.
  */
-export function sanitizeInput(raw = '') {
+export function sanitizeInput(raw = '', maxLength = 120) {
   return String(raw)
     .replace(/[<>&"'`\\]/g, '')  // strip HTML/JS special chars
     .replace(/javascript:/gi, '') // strip JS URLs
     .replace(/on\w+=/gi, '')      // strip event handler attrs
-    .slice(0, 120);               // hard max length
+    .slice(0, maxLength);               // hard max length
 }
 
 // ── 3. Rate limiter ────────────────────────────────────────────────────────

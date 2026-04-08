@@ -1,3 +1,5 @@
+import { sanitizeInput } from '../utils/security';
+
 export default function SearchBar({ value, onChange }) {
   return (
     <section className="search-section">
@@ -9,7 +11,7 @@ export default function SearchBar({ value, onChange }) {
           className="search-input"
           placeholder="Search a word, language, or meaning…"
           value={value}
-          onChange={(e) => onChange(e.target.value)}
+          onChange={(e) => onChange(sanitizeInput(e.target.value))}
           aria-label="Search words or languages"
           autoComplete="off"
           spellCheck={false}

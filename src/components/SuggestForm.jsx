@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { checkRateLimit, sanitizeInput } from '../utils/security';
 
 export default function SuggestForm({ onClose }) {
   const [submitted, setSubmitted] = useState(false);
@@ -6,6 +7,12 @@ export default function SuggestForm({ onClose }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!checkRateLimit('suggest_word', 5, 15 * 60 * 1000)) {
+       alert("Too many attempts. Please try again later in 15 minutes.");
+       return;
+    }
+
     setLoading(true);
 
     // 🔴 SECURE: Pulling the key from a local .env file so it NEVER goes into GitHub
@@ -18,7 +25,13 @@ export default function SuggestForm({ onClose }) {
     }
 
     const formData = new FormData(e.target);
+    // Sanitize user inputs
     const object = Object.fromEntries(formData);
+    object.language = sanitizeInput(object.language, 60);
+    object.word = sanitizeInput(object.word, 60);
+    object.context = sanitizeInput(object.context, 300);
+    object.severity = sanitizeInput(object.severity, 20);
+
     object.access_key = ACCESS_KEY;
     object.subject = "New Word Suggestion - CussAway";
     
