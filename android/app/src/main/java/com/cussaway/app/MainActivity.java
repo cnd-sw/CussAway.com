@@ -1,4 +1,4 @@
-package net.chandan.cussaway;
+package com.cussaway.app;
 
 import com.getcapacitor.BridgeActivity;
 

@@ -1,0 +1,628 @@
+{
+  "language": "English",
+  "code": "en",
+  "region": "Global",
+  "script": "Latin",
+  "entries": [
+    {
+      "id": 1,
+      "word": "arse",
+      "transliteration": "arse",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Buttocks / Foolish person",
+      "context": "Common British/Australian mild insult or exclamation.",
+      "suggested_response": "Ignore. Often used casually."
+    },
+    {
+      "id": 2,
+      "word": "arsehead",
+      "transliteration": "arsehead",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Foolish or annoying person",
+      "context": "British variant of asshole.",
+      "suggested_response": "Ignore or walk away."
+    },
+    {
+      "id": 3,
+      "word": "arsehole",
+      "transliteration": "arsehole",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Annoying or despicable person",
+      "context": "Widely used British/Australian slang.",
+      "suggested_response": "Do not retaliate. Walk away."
+    },
+    {
+      "id": 4,
+      "word": "ass",
+      "transliteration": "ass",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Buttocks / Foolish person",
+      "context": "Common North American mild insult.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 5,
+      "word": "asshole",
+      "transliteration": "asshole",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "An irritating, arrogant, or contemptible person",
+      "context": "Common in American English during arguments or road rage.",
+      "suggested_response": "Ignore if possible. Retaliation leads to arguments."
+    },
+    {
+      "id": 6,
+      "word": "bastard",
+      "transliteration": "bastard",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Despicable person / Illegitimate child",
+      "context": "Used to describe an unfair or cruel person.",
+      "suggested_response": "Stay calm. Do not react aggressively."
+    },
+    {
+      "id": 7,
+      "word": "bitch",
+      "transliteration": "bitch",
+      "severity": "severe",
+      "category": "insult",
+      "meaning": "Unpleasant or mean person (often targeted at women)",
+      "context": "A strong, gendered insult used in hostility.",
+      "suggested_response": "Disengage immediately."
+    },
+    {
+      "id": 8,
+      "word": "bloody",
+      "transliteration": "bloody",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "General intensifier",
+      "context": "Common British/Australian slang to emphasize frustration.",
+      "suggested_response": "No response needed."
+    },
+    {
+      "id": 9,
+      "word": "bollocks",
+      "transliteration": "bollocks",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Nonsense / Testicles",
+      "context": "British term used to express disbelief or anger.",
+      "suggested_response": "No response needed."
+    },
+    {
+      "id": 10,
+      "word": "brotherfucker",
+      "transliteration": "brotherfucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Incestuous insult",
+      "context": "Extreme variant of motherfucker to cause shock value.",
+      "suggested_response": "Walk away. Do not engage."
+    },
+    {
+      "id": 11,
+      "word": "bugger",
+      "transliteration": "bugger",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Damn it / Nuisance",
+      "context": "Mostly used in British English for minor inconveniences.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 12,
+      "word": "bullshit",
+      "transliteration": "bullshit",
+      "severity": "mild",
+      "category": "exclamation",
+      "meaning": "Nonsense / Lies",
+      "context": "Calling out someone on what they perceive as a lie.",
+      "suggested_response": "Calmly clarify or disengage."
+    },
+    {
+      "id": 13,
+      "word": "child-fucker",
+      "transliteration": "child-fucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Pedophile accusation",
+      "context": "Extremely aggressive insult.",
+      "suggested_response": "Remove yourself from the situation completely."
+    },
+    {
+      "id": 14,
+      "word": "cock",
+      "transliteration": "cock",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Male genitalia / Arrogant person",
+      "context": "Used similarly to 'dick'.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 15,
+      "word": "cocksucker",
+      "transliteration": "cocksucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Subservient or detestable person",
+      "context": "Strong hostile insult originally based on homophobia.",
+      "suggested_response": "Disengage completely."
+    },
+    {
+      "id": 16,
+      "word": "crap",
+      "transliteration": "crap",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Feces / Garbage",
+      "context": "Very common and mild alternative to 'shit'.",
+      "suggested_response": "No response required."
+    },
+    {
+      "id": 17,
+      "word": "cunt",
+      "transliteration": "cunt",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Extremely offensive term",
+      "context": "Highly taboo in North America. Used aggressively or casually depending on region (UK/Aus).",
+      "suggested_response": "Do not respond in kind. Step away."
+    },
+    {
+      "id": 18,
+      "word": "dammit",
+      "transliteration": "dammit",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Expression of anger or frustration",
+      "context": "Used to show displeasure at a situation.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 19,
+      "word": "damn",
+      "transliteration": "damn",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Condemnation / Frustration",
+      "context": "Mild expletive expressing frustration.",
+      "suggested_response": "No response needed."
+    },
+    {
+      "id": 20,
+      "word": "damned",
+      "transliteration": "damned",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Cursed / frustrating",
+      "context": "Used as an adjective.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 21,
+      "word": "dick",
+      "transliteration": "dick",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Male genitalia / Unfair person",
+      "context": "Used to describe someone who is acting mean or unfair.",
+      "suggested_response": "Disengage."
+    },
+    {
+      "id": 22,
+      "word": "dick-head",
+      "transliteration": "dick-head",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Foolish or obnoxious person",
+      "context": "Used when someone acts inconsiderately.",
+      "suggested_response": "Ignore or walk away."
+    },
+    {
+      "id": 23,
+      "word": "dickhead",
+      "transliteration": "dickhead",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Foolish or obnoxious person",
+      "context": "Variant spelling of dick-head.",
+      "suggested_response": "Ignore or walk away."
+    },
+    {
+      "id": 24,
+      "word": "dumb-ass",
+      "transliteration": "dumb-ass",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Stupid person",
+      "context": "Common insult for making an obvious mistake.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 25,
+      "word": "dumbass",
+      "transliteration": "dumbass",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Stupid person",
+      "context": "Common insult.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 26,
+      "word": "dyke",
+      "transliteration": "dyke",
+      "severity": "severe",
+      "category": "slur",
+      "meaning": "Derogatory term for a lesbian",
+      "context": "Highly offensive homophobic slur when used outside reclaimed contexts.",
+      "suggested_response": "Severe red flag. Walk away globally to maintain safety."
+    },
+    {
+      "id": 27,
+      "word": "fag",
+      "transliteration": "fag",
+      "severity": "severe",
+      "category": "slur",
+      "meaning": "Homophobic slur (in NA) / Cigarette (in UK)",
+      "context": "Highly offensive slur in North America. Very contextual in the UK (means cigarette).",
+      "suggested_response": "If meant as a slur, leave the situation safely."
+    },
+    {
+      "id": 28,
+      "word": "faggot",
+      "transliteration": "faggot",
+      "severity": "severe",
+      "category": "slur",
+      "meaning": "Homophobic slur",
+      "context": "Extremely offensive term targeted at gay men.",
+      "suggested_response": "Do not escalate. This signals serious hostility."
+    },
+    {
+      "id": 29,
+      "word": "father-fucker",
+      "transliteration": "father-fucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Alternative to motherfucker",
+      "context": "Designed to shock and offend.",
+      "suggested_response": "Ignore and step away."
+    },
+    {
+      "id": 30,
+      "word": "fatherfucker",
+      "transliteration": "fatherfucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Alternative to motherfucker",
+      "context": "Designed to shock and offend.",
+      "suggested_response": "Ignore and step away."
+    },
+    {
+      "id": 31,
+      "word": "fuck",
+      "transliteration": "fuck",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Sexual intercourse / Expletive",
+      "context": "The most versatile English swear word. Used aggressively, casually, or in pain.",
+      "suggested_response": "Assess context before acting. If directed at you aggressively, retreat."
+    },
+    {
+      "id": 32,
+      "word": "fucked",
+      "transliteration": "fucked",
+      "severity": "moderate",
+      "category": "profanity",
+      "meaning": "Broken, ruined, or heavily intoxicated",
+      "context": "Used to describe a bad situation.",
+      "suggested_response": "No response needed."
+    },
+    {
+      "id": 33,
+      "word": "fucker",
+      "transliteration": "fucker",
+      "severity": "severe",
+      "category": "insult",
+      "meaning": "Despicable person",
+      "context": "Aggressive variation of fuck used directly at a person.",
+      "suggested_response": "Do not engage."
+    },
+    {
+      "id": 34,
+      "word": "fucking",
+      "transliteration": "fucking",
+      "severity": "moderate",
+      "category": "expletive",
+      "meaning": "Intensifier",
+      "context": "Used constantly as an adjective to emphasize a point.",
+      "suggested_response": "Ignore the swear, listen to the context."
+    },
+    {
+      "id": 35,
+      "word": "goddammit",
+      "transliteration": "goddammit",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Expression of extreme frustration",
+      "context": "Blasphemous swearing.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 36,
+      "word": "goddamn",
+      "transliteration": "goddamn",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Intensifier",
+      "context": "Blasphemous cursing.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 37,
+      "word": "Goddamn",
+      "transliteration": "Goddamn",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Intensifier",
+      "context": "Blasphemous cursing.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 38,
+      "word": "goddamned",
+      "transliteration": "goddamned",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Intensifier",
+      "context": "Blasphemous cursing.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 39,
+      "word": "goddamnit",
+      "transliteration": "goddamnit",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Expression of frustration",
+      "context": "Blasphemous cursing.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 40,
+      "word": "godsdamn",
+      "transliteration": "godsdamn",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Variant phrase",
+      "context": "Fantasy or archaic variant.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 41,
+      "word": "hell",
+      "transliteration": "hell",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Express anger or surprise",
+      "context": "Very mildly offensive in most modern circles.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 42,
+      "word": "horseshit",
+      "transliteration": "horseshit",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Nonsense or blatant lies",
+      "context": "Used to call out a severe lie.",
+      "suggested_response": "Calmly evaluate the situation."
+    },
+    {
+      "id": 43,
+      "word": "jack-ass",
+      "transliteration": "jack-ass",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Stupid or annoying person",
+      "context": "Common insult.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 44,
+      "word": "jackass",
+      "transliteration": "jackass",
+      "severity": "mild",
+      "category": "insult",
+      "meaning": "Stupid or annoying person",
+      "context": "Alternative spelling.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 45,
+      "word": "kike",
+      "transliteration": "kike",
+      "severity": "severe",
+      "category": "slur",
+      "meaning": "Antisemitic slur",
+      "context": "Highly offensive slur targeted at Jewish people.",
+      "suggested_response": "Walk away. High hostility indicator."
+    },
+    {
+      "id": 46,
+      "word": "mother-fucker",
+      "transliteration": "mother-fucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Extremely offensive or intense term",
+      "context": "Can be an aggressive personal insult or an exclamation of severe anger/surprise.",
+      "suggested_response": "If directed aggressively, retreat."
+    },
+    {
+      "id": 47,
+      "word": "motherfucker",
+      "transliteration": "motherfucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Extremely offensive term",
+      "context": "Variant spelling.",
+      "suggested_response": "If directed aggressively, retreat."
+    },
+    {
+      "id": 48,
+      "word": "nigga",
+      "transliteration": "nigga",
+      "severity": "moderate",
+      "category": "slur",
+      "meaning": "Reclaimed racial term / Offensive slur depending on speaker",
+      "context": "Highly contextual. Commonly used safely within the Black community. Deeply offensive when used by non-Black individuals.",
+      "suggested_response": "If used hatefully, leave immediately."
+    },
+    {
+      "id": 49,
+      "word": "nigra",
+      "transliteration": "nigra",
+      "severity": "severe",
+      "category": "slur",
+      "meaning": "Variant of an anti-Black slur",
+      "context": "Archaic/Southern racism.",
+      "suggested_response": "Walk away immediately."
+    },
+    {
+      "id": 50,
+      "word": "pigfucker",
+      "transliteration": "pigfucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Highly offensive insult",
+      "context": "Used to shock or demean deeply.",
+      "suggested_response": "Do not retaliate."
+    },
+    {
+      "id": 51,
+      "word": "piss",
+      "transliteration": "piss",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Urine / Annoyed ('pissed off')",
+      "context": "Very common mild swear.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 52,
+      "word": "prick",
+      "transliteration": "prick",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Arrogant or annoying man",
+      "context": "Common British and North American insult.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 53,
+      "word": "pussy",
+      "transliteration": "pussy",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Coward / Weak person",
+      "context": "Demeaning insult targeting someone's bravery.",
+      "suggested_response": "Ignore. Provocation attempt."
+    },
+    {
+      "id": 54,
+      "word": "shit",
+      "transliteration": "shit",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Feces / Exclamation of anger",
+      "context": "Used continuously for mistakes or disgust.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 55,
+      "word": "shite",
+      "transliteration": "shite",
+      "severity": "mild",
+      "category": "expletive",
+      "meaning": "Feces",
+      "context": "British variant of shit.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 56,
+      "word": "sisterfuck",
+      "transliteration": "sisterfuck",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Incestuous shocking insult",
+      "context": "Very rare, used for pure shock value.",
+      "suggested_response": "Disengage."
+    },
+    {
+      "id": 57,
+      "word": "sisterfucker",
+      "transliteration": "sisterfucker",
+      "severity": "severe",
+      "category": "profanity",
+      "meaning": "Alternative to motherfucker",
+      "context": "Used to shock or deeply offend.",
+      "suggested_response": "Disengage."
+    },
+    {
+      "id": 58,
+      "word": "slut",
+      "transliteration": "slut",
+      "severity": "severe",
+      "category": "insult",
+      "meaning": "Promiscuous woman",
+      "context": "Sexist insult directed at a woman's sexual history or behavior.",
+      "suggested_response": "Do not escalate. Remove yourself from the toxic environment."
+    },
+    {
+      "id": 59,
+      "word": "spastic",
+      "transliteration": "spastic",
+      "severity": "moderate",
+      "category": "slur",
+      "meaning": "Offensive term for a disabled clumsy person",
+      "context": "Highly offensive in the UK, used mildly in the US.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 60,
+      "word": "tranny",
+      "transliteration": "tranny",
+      "severity": "severe",
+      "category": "slur",
+      "meaning": "Derogatory term for a transgender person",
+      "context": "Highly offensive transphobic slur.",
+      "suggested_response": "Walk away safely. High hostility."
+    },
+    {
+      "id": 61,
+      "word": "twat",
+      "transliteration": "twat",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Foolish or obnoxious person",
+      "context": "Commonly used in Britain.",
+      "suggested_response": "Ignore."
+    },
+    {
+      "id": 62,
+      "word": "wanker",
+      "transliteration": "wanker",
+      "severity": "moderate",
+      "category": "insult",
+      "meaning": "Obnoxious or foolish man",
+      "context": "Very common British/Australian insult.",
+      "suggested_response": "Ignore. Common road rage term in Europe."
+    }
+  ]
+}

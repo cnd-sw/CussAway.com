@@ -94,7 +94,63 @@ export const noopAnalytics = new Proxy({}, {
   get: () => () => undefined,
 });
 
-// ── 6. Privacy enforcement summary (dev-only readable) ────────────────────
+// ── 6. Anti-Scrape & Bot Protection ────────────────────────────────────────
+/**
+ * Detects common automated browser footprints (Puppeteer, Selenium, etc.)
+ */
+export function isAutomatedRequest() {
+  if (typeof window === 'undefined') return false;
+  
+  const botPatterns = [
+    /bot/i, /spider/i, /crawl/i, /scrape/i, /headless/i, /lighthouse/i
+  ];
+  
+  return (
+    navigator.webdriver ||
+    window.callPhantom ||
+    window._phantom ||
+    window.__nightmare ||
+    botPatterns.some(p => p.test(navigator.userAgent))
+  );
+}
+
+/**
+ * Aggressive deterrents against manual scraping and inspection.
+ */
+export function enforceAntiScrape() {
+  if (typeof document === 'undefined') return;
+
+  // 1. Disable Right Click
+  document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+  // 2. Disable Common DevTool shortcuts
+  document.addEventListener('keydown', (e) => {
+    // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+    if (
+      e.keyCode === 123 || 
+      (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) ||
+      (e.ctrlKey && e.keyCode === 85)
+    ) {
+      e.preventDefault();
+      return false;
+    }
+  });
+
+  // 3. Bot Check
+  if (isAutomatedRequest()) {
+    console.warn("Automated access detected. Features limited.");
+    document.body.innerHTML = `
+      <div style="height:100vh; display:flex; align-items:center; justify-content:center; background:#000; color:#fff; font-family:sans-serif; text-align:center; padding:20px;">
+        <div>
+          <h1 style="color:#ff0055;">Access Restricted</h1>
+          <p>Automated bots and scrapers are not permitted on this resource.</p>
+        </div>
+      </div>
+    `;
+  }
+}
+
+// ── 7. Privacy enforcement summary (dev-only readable) ────────────────────
 export const PRIVACY_POLICY = {
   userDataLogged: false,
   analyticsEnabled: false,

@@ -1,10 +1,11 @@
 [
-  { "code": "hi", "name": "Hindi", "flag": "🇮🇳", "region": "South Asia", "file": "hindi.json" },
-  { "code": "fr", "name": "French", "flag": "🇫🇷", "region": "Western Europe", "file": "french.json" },
-  { "code": "es", "name": "Spanish", "flag": "🇪🇸", "region": "Southern Europe / Latin America", "file": "spanish.json" },
-  { "code": "it", "name": "Italian", "flag": "🇮🇹", "region": "Southern Europe", "file": "italian.json" },
-  { "code": "de", "name": "German", "flag": "🇩🇪", "region": "Central Europe", "file": "german.json" },
-  { "code": "ar", "name": "Arabic", "flag": "🇸🇦", "region": "Middle East / North Africa", "file": "arabic.json" },
-  { "code": "ru", "name": "Russian", "flag": "🇷🇺", "region": "Eastern Europe", "file": "russian.json" },
-  { "code": "ja", "name": "Japanese", "flag": "🇯🇵", "region": "East Asia", "file": "japanese.json" }
+  { "code": "en", "name": "English", "region": "Global", "file": "english.json", "flagColors": ["#012169", "#FFFFFF", "#C8102E"] },
+  { "code": "hi", "name": "Hindi", "region": "South Asia", "file": "hindi.json", "flagColors": ["#FF9933", "#FFFFFF", "#128807"] },
+  { "code": "fr", "name": "French", "region": "Western Europe", "file": "french.json", "flagColors": ["#00209F", "#FFFFFF", "#EF4135"] },
+  { "code": "es", "name": "Spanish", "region": "Southern Europe", "file": "spanish.json", "flagColors": ["#AA151B", "#F1BF00", "#AA151B"] },
+  { "code": "it", "name": "Italian", "region": "Southern Europe", "file": "italian.json", "flagColors": ["#009246", "#FFFFFF", "#CE2B37"] },
+  { "code": "de", "name": "German", "region": "Central Europe", "file": "german.json", "flagColors": ["#000000", "#DD0000", "#FFCE00"] },
+  { "code": "ar", "name": "Arabic", "region": "Middle East", "file": "arabic.json", "flagColors": ["#007A3D", "#FFFFFF", "#000000", "#CE1126"] },
+  { "code": "ru", "name": "Russian", "region": "Eastern Europe", "file": "russian.json", "flagColors": ["#FFFFFF", "#0039A6", "#D52B1E"] },
+  { "code": "ja", "name": "Japanese", "region": "East Asia", "file": "japanese.json", "flagColors": ["#FFFFFF", "#BC002D"] }
 ]

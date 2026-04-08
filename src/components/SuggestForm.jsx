@@ -1,111 +1,121 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { X, Send, Database } from 'lucide-react';
 import { checkRateLimit, sanitizeInput } from '../utils/security';
 
 export default function SuggestForm({ onClose }) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = 'auto'; };
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!checkRateLimit('suggest_word', 5, 15 * 60 * 1000)) {
-       alert("Too many attempts. Please try again later in 15 minutes.");
-       return;
+      alert("ATTEMPT_LIMIT_REACHED. TRY_AGAIN_IN_15_MIN.");
+      return;
     }
 
     setLoading(true);
-
-    // 🔴 SECURE: Pulling the key from a local .env file so it NEVER goes into GitHub
     const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_KEY;
 
     if (!ACCESS_KEY) {
-        alert("Developer Note: Please configure your VITE_WEB3FORMS_KEY in a .env file.");
-        setLoading(false);
-        return;
+      alert("DEV_ERROR: API_KEY_MISSING");
+      setLoading(false);
+      return;
     }
 
     const formData = new FormData(e.target);
-    // Sanitize user inputs
     const object = Object.fromEntries(formData);
-    object.language = sanitizeInput(object.language, 60);
-    object.word = sanitizeInput(object.word, 60);
-    object.context = sanitizeInput(object.context, 300);
-    object.severity = sanitizeInput(object.severity, 20);
-
     object.access_key = ACCESS_KEY;
-    object.subject = "New Word Suggestion - CussAway";
-    
+    object.subject = "New Entry Submission - CussAway";
+
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(object)
       });
-      
+
       const result = await response.json();
-      
       if (result.success) {
         setSubmitted(true);
         setTimeout(() => onClose(), 3000);
-      } else {
-        alert("Failed to submit. Please try again.");
       }
     } catch (error) {
-      alert("Network error. Please check your connection.");
+      alert("NETWORK_TRANS_FAILURE");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-card" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>✕</button>
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-black/95">
+      <motion.div 
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        className="max-w-2xl w-full border border-white/10 bg-black p-10 sm:p-20 relative"
+      >
+        <button className="absolute top-10 right-10 text-white/20 hover:text-accent transition-colors" onClick={onClose}>
+          <X className="w-6 h-6" />
+        </button>
 
         {submitted ? (
-          <div className="modal-success">
-            <div className="success-icon">📬</div>
-            <h2>Suggestion Sent!</h2>
-            <p>Our reviewers will check the accuracy before adding it to the database.</p>
+          <div className="py-20 text-center space-y-6">
+            <div className="w-16 h-1 w-20 mx-auto bg-accent animate-pulse" />
+            <h2 className="text-4xl font-mono font-black uppercase tracking-tighter">DATA_SYNCHRONIZED</h2>
+            <p className="label-spec text-white/40">Entry submitted to linguistic queue for analysis</p>
           </div>
         ) : (
-          <form className="suggest-form" onSubmit={handleSubmit}>
-            <h2>Suggest a Word</h2>
-            <p>Know a term travelers should be aware of? Submit it anonymously.</p>
-
-            <div className="form-group">
-              <label>Language & Region</label>
-              <input className="form-input" name="language" required placeholder="e.g. Hindi, French, Italian" />
+          <form className="space-y-12" onSubmit={handleSubmit}>
+            <div className="space-y-2">
+              <div className="flex items-center gap-3">
+                <Database className="w-4 h-4 text-accent" />
+                <h2 className="text-3xl font-mono font-black uppercase tracking-tighter">SUBMIT_INTEL</h2>
+              </div>
+              <p className="label-spec">Provide metadata for new linguistic pattern</p>
             </div>
 
-            <div className="form-group">
-              <label>The Word / Phrase</label>
-              <input className="form-input" name="word" required placeholder="The exact word in native script or English" />
+            <div className="space-y-10">
+              <div className="space-y-3">
+                <p className="label-spec text-white/40">Field_01::Language_Region</p>
+                <input 
+                  className="w-full bg-transparent border-b border-white/10 py-2 font-mono text-sm uppercase tracking-widest focus:border-accent focus:outline-none transition-colors"
+                  name="language" required placeholder="TARGET_LANGUAGE..."
+                />
+              </div>
+
+              <div className="space-y-3">
+                <p className="label-spec text-white/40">Field_02::Word_Phrase</p>
+                <input 
+                  className="w-full bg-transparent border-b border-white/10 py-2 font-mono text-sm uppercase tracking-widest focus:border-accent focus:outline-none transition-colors"
+                  name="word" required placeholder="INPUT_PHRASE..."
+                />
+              </div>
+
+              <div className="space-y-3">
+                <p className="label-spec text-white/40">Field_03::Context_Description</p>
+                <textarea 
+                  className="w-full bg-transparent border-b border-white/10 py-2 font-mono text-sm uppercase tracking-widest focus:border-accent focus:outline-none transition-colors resize-none"
+                  name="context" required rows="3" placeholder="USAGE_METADATA..."
+                />
+              </div>
             </div>
 
-            <div className="form-group">
-              <label>Meaning & Context</label>
-              <textarea className="form-input" name="context" required rows="3" placeholder="Literal meaning, and when/why locals say it..." />
-            </div>
-
-            <div className="form-group">
-              <label>Severity Level</label>
-              <select className="form-input" name="severity" required>
-                <option value="mild">🟢 Mild (Mockery / Casual insult)</option>
-                <option value="moderate">🟡 Moderate (Strong insult)</option>
-                <option value="severe">🔴 Severe (Profanity / Threat)</option>
-              </select>
-            </div>
-
-            <button type="submit" className="btn-confirm mt-3" disabled={loading}>
-              {loading ? 'Sending...' : 'Submit for Review'}
+            <button 
+              type="submit" 
+              disabled={loading}
+              className="w-full py-5 bg-white text-black font-mono font-black uppercase tracking-widest hover:bg-accent hover:shadow-[0_0_30px_#e2fc07] transition-all"
+            >
+              {loading ? 'TRANSMITTING...' : 'EXECUTE_SUBMISSION'}
             </button>
           </form>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 }
